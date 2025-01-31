@@ -4,7 +4,7 @@ import Header from '../js/components/header/Header'
 import Home from '../js/components/home/Home'
 import Skills from './components/skills/Skills'
 import Project from './components/project/Project'
-import { Contact } from '../js/components/Contact/Contact'
+import { Contact } from '../js/components/contact/Contact'
 
 
 function App() {
