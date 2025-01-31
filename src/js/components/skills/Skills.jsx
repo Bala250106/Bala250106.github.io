@@ -42,7 +42,7 @@ const Skills = () => {
     },
     {
       name:"My SQL",
-      known:"92%",
+      known:"87%",
       image:'fa-solid fa-database',
       color:"rgb(107, 117, 185)",
       progressBarWidth:"185px"
