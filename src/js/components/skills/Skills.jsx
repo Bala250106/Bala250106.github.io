@@ -10,16 +10,16 @@ const Skills = () => {
   const list=[
     {
       name:"HTML",
-      known:"90%",
+      known:"92%",
       image:'fa-brands fa-html5',
       color:"#E96228",
-      progressBarWidth:"180px"
+      progressBarWidth:"185px"
     },{
       name:"CSS",
-      known:"90%",
+      known:"86%",
       image:"fa-brands fa-css3-alt",
       color:"#07A2F5",
-      progressBarWidth:"180px"
+      progressBarWidth:"175px"
     },{
       name:"JavaScript",
       known:"90%",
@@ -28,10 +28,10 @@ const Skills = () => {
       progressBarWidth:"180px"
     },{
       name:"React JS",
-      known:"50%",
+      known:"65%",
       image:'fa-brands fa-react',
       color:"#00D5F7",
-      progressBarWidth:"100px"
+      progressBarWidth:"130px"
     },
     {
       name:"Python",
@@ -42,22 +42,22 @@ const Skills = () => {
     },
     {
       name:"My SQL",
-      known:"90%",
+      known:"92%",
       image:'fa-solid fa-database',
       color:"rgb(107, 117, 185)",
-      progressBarWidth:"180px"
+      progressBarWidth:"185px"
     },{
       name:"GitHub",
-      known:"40%",
+      known:"43%",
       image:'fa-brands fa-github',
       color:"#79258B",
-      progressBarWidth:"80px"
+      progressBarWidth:"85px"
     },{
       name:"Firebase",
-      known:"50%",
+      known:"55%",
       image:'fa-solid fa-fire',
       color:"#efc23b",
-      progressBarWidth:"100px"
+      progressBarWidth:"110px"
     }
   ]
 
