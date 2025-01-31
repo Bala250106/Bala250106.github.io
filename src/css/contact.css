@@ -1,0 +1,122 @@
+#contact{
+    width: 100vw;
+   padding-top: 60px;
+   height: 80vh;
+    background-color: #141625;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+#contact h2{
+    align-self: center;
+}
+
+.contact-form{
+    height: 500px;
+    width: 350px;
+}
+
+.form-container{
+    width: 1000px;
+    background-color: #343853;
+    padding: 20px;
+    border-radius: 20px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+
+}
+
+form {
+    height:400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+
+
+}
+
+
+form input{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: black;
+}
+form textarea{
+    width: 300px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+.inputDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+label{
+    padding-bottom: 10px;
+}
+::placeholder{
+    color: black;
+}
+.Sendbtn{
+    color: black ;
+    font-weight: bold;
+    background-color:rgb(29, 159, 202);
+    border: none;
+    height: 45px;
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+}
+.Sendbtn:hover{
+    background-color:rgb(4, 84, 159);
+
+
+}
+
+
+.Contact-details{
+    width: 500px;
+    height: 500px;
+    /* background-color: #1f2236; */
+    border-radius: 20px;
+}
+
+.contact_heading{
+    font-size: 30px;
+   padding: 2px 20px 20px 150px;
+}
+
+.contact_list{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+
+.contact_list > a > i{
+    font-size: 40px;
+}
+
+

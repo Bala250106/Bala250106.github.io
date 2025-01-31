@@ -1,0 +1,76 @@
+#about{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    background-color:  #141625;
+    height: 60vh;
+    padding: 20px 0;
+}
+
+.about_me_image{
+    width: 500px;
+    height: 500px;
+}
+
+
+.div_content_container{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 120px;
+
+}
+.div_content_container p{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_content_container h2{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(29, 159, 202);
+    padding-bottom: 25px;
+}
+
+.div_content_container p{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.about_page_link_container{
+    width: 300px;
+    display: flex;
+}
+
+.about_page_link_container a:first-child {
+    background-color: #2EC866;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 80px;
+    transition: background-color 0.3s ease, transform 0.5s ease; 
+}
+
+.about_page_link_container a:first-child:hover {
+    background-color: #28a745; 
+    transform: scale(1.1); 
+    color: white;
+
+
+}
+
+.about_page_link_container a:last-child {
+    background-color: lightgray;
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.5s ease; }
+
+.about_page_link_container a:last-child:hover {
+    background-color: #dcdcdc;
+    transform: scale(1.1); 
+    
+}
+
