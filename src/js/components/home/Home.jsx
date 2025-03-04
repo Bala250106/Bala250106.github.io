@@ -10,7 +10,7 @@ const Home = () => {
 
         </div>
         <div>
-          <img src={Myimage} alt="my-image" className='my-image'/>
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fauv-team-tomkyle.de%2F%3Ft%3D532311412162&psig=AOvVaw1alR4wIy-aSmpim1UEVKaF&ust=1741156534052000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJD1p93n74sDFQAAAAAdAAAAABAJ" alt="my-image" className='my-image'/>
         </div>
     </section>
   )
