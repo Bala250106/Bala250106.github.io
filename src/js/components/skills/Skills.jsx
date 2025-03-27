@@ -28,10 +28,10 @@ const Skills = () => {
       progressBarWidth:"180px"
     },{
       name:"React JS",
-      known:"65%",
+      known:"30%",
       image:'fa-brands fa-react',
       color:"#00D5F7",
-      progressBarWidth:"130px"
+      progressBarWidth:"65px"
     },
     {
       name:"Python",
